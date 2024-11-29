@@ -12,10 +12,9 @@
 
 ## 👨‍🎓 Integrantes:
 
+- <a href="https://www.linkedin.com/in/alexomantovani/">Alexandre Oliveira Mantovani</a>
+- <a href="https://br.linkedin.com/in/ricardolcoube/">Ricardo Lourenço Coube</a>
 - <a href="https://www.linkedin.com/company/">Edmar Ferreira Souza</a>
-- <a href="https://www.linkedin.com/company/">Thiago Lima Bernardes</a>
-- <a href="https://www.linkedin.com/company/">Alexandre Oliveira Mantovani</a>
-- <a href="https://www.linkedin.com/company/">Ricardo Lourenço Coube</a>
 
 ## 👩‍🏫 Professores:
 
