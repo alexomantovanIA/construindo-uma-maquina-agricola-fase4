@@ -54,8 +54,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 Controle e Coleta de Dados (ESP32 e Sensores): Utilizando um ESP32, o sistema monitora a umidade do solo, níveis de nutrientes (P e K) e pH, além de controlar uma bomba de água. Quando a umidade está baixa e um dos nutrientes estão presentes, a bomba é ativada automaticamente. Os dados coletados são exibidos em tempo real no Monitor Serial.
 
 <p align="center">
-<a href= "https://wokwi.com/projects/414386681190963201"><img src="assets/eletronica.png" alt="Sistema de irricação" border="0" width=40% height=40%></a>
+<a href= "https://wokwi.com/projects/416283906351427585"><img src="assets/eletronica.png" alt="Sistema de irricação" border="0" width=40% height=40%></a>
 </p>
+<p align="center">Clique na imagem acima para abrir o sistema no Wowki</p>
 
 Conexão com Banco de Dados: Conecta-se ao banco de dados MySql para armazenar e manipular dados coletados do sistema de irrigação.
 
