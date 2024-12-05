@@ -8,10 +8,10 @@ import joblib
 dados = pd.read_csv('dados_irrigacao.csv')
 
 # Features (dados de entrada)
-X = dados[['umidadeSolo', 'phSolo', 'nutrienteP', 'nutrienteK', 'hora']]
+X = dados[['Temperatura', 'UmidadeSolo', 'Luminosidade', 'DistanciaAgua']]
 
 # Target (variável de saída)
-y = dados['irrigacaoAtiva']
+y = dados['Irrigacao'].apply(lambda x: 1 if x == 'ON' else 0)  # Converter 'ON' para 1 e 'OFF' para 0
 
 # 2. Dividir os dados em treino e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
