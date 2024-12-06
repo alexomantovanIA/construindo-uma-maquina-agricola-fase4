@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # 1. Carregar os dados
-dados = pd.read_csv('dados_irrigacao.csv')
+dados = pd.read_csv('scripts/dados_irrigacao.csv')
 
 # Features (dados de entrada)
 X = dados[['Temperatura', 'UmidadeSolo', 'Luminosidade', 'DistanciaAgua']]
@@ -25,5 +25,5 @@ y_pred = modelo.predict(X_test)
 print("Acurácia do modelo:", accuracy_score(y_test, y_pred))
 
 # 5. Salvar o modelo treinado
-joblib.dump(modelo, 'modelo_irrigacao.pkl')
+joblib.dump(modelo, 'scripts/modelo_irrigacao.pkl')
 print("Modelo salvo como 'modelo_irrigacao.pkl'")

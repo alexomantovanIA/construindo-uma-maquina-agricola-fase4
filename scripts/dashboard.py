@@ -26,7 +26,7 @@ def realizar_previsoes(dados):
     
     # Adicionar uma coluna com mensagens descritivas
     dados["MensagemIrrigacao"] = dados["PrevisaoIrrigacao"].apply(
-        lambda x: f"Ligação às {datetime.now().strftime('%H:%M')}" if x == 1 else "Sem irrigação"
+        lambda x: f"Irrigado às {datetime.now().strftime('%H:%M')}" if x == 1 else "Sem irrigação"
     )
     return dados
 
