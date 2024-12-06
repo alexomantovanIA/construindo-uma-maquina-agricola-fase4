@@ -54,7 +54,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 Controle e Coleta de Dados (ESP32 e Sensores): Utilizando um ESP32, o sistema monitora a umidade do solo, níveis de nutrientes (P e K) e pH, além de controlar uma bomba de água. Quando a umidade está baixa e um dos nutrientes estão presentes, a bomba é ativada automaticamente. Os dados coletados são exibidos em tempo real no Monitor Serial.
 
 <p align="center">
-<a href= "https://wokwi.com/projects/416283906351427585"><img src="assets/eletronica.png" alt="Sistema de irricação" border="0" width=40% height=40%></a>
+<a href= "https://wokwi.com/projects/416283906351427585"><img src="assets/eletronica.png" alt="Sistema de irricação" border="0" width=55% height=55%></a>
 </p>
 <p align="center">Clique na imagem acima para abrir o sistema no Wowki</p>
 
@@ -160,27 +160,27 @@ Funções Principais
 
 - **Tabela de Dados em Tempo Real**:
   <p align="center">
-  <a href= ""><img src="assets/dashboard_dados_tabela.png" alt="Captura 1" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/dashboard_dados_tabela.png" alt="Captura 1" border="0" width=55% height=55%></a>
   </p>
 
 - **Gráfico de Umidade do Solo**:
   <p align="center">
-  <a href= ""><img src="assets/dashboard_umidade.png" alt="Captura 1" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/dashboard_umidade.png" alt="Captura 1" border="0" width=55% height=55%></a>
   </p>
 
 - **Gráfico de Luminosidade**:
   <p align="center">
-  <a href= ""><img src="assets/dashboard_luminosidade.png" alt="Captura 1" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/dashboard_luminosidade.png" alt="Captura 1" border="0" width=55% height=55%></a>
   </p>
 
 - **Gráfico do Nível de Água**:
   <p align="center">
-  <a href= ""><img src="assets/dashboard_nivel_agua.png" alt="Captura 1" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/dashboard_nivel_agua.png" alt="Captura 1" border="0" width=55% height=55%></a>
   </p>
 
 - **Decisões do Modelo de ML**:
   <p align="center">
-  <a href= ""><img src="assets/dashboard_ml_decisoes.png" alt="Captura 1" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/dashboard_ml_decisoes.png" alt="Captura 1" border="0" width=55% height=55%></a>
   </p>
 
 ## 📊 Demonstração do Serial Plotter
@@ -201,7 +201,7 @@ O Serial Plotter foi utilizado para monitorar as seguintes variáveis:
   - **Contexto**: Temperatura baixa (10,1°C) e umidade moderada (55%).
   - **Observação**: A temperatura permanece estável, enquanto a umidade apresenta pequenas oscilações.
   <p align="center">
-  <a href= ""><img src="assets/Captura 1.png" alt="Captura 1" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/Captura 1.png" alt="Captura 1" border="0" width=55% height=55%></a>
   </p>
 
 - **Captura 2**:
@@ -209,14 +209,14 @@ O Serial Plotter foi utilizado para monitorar as seguintes variáveis:
   - **Contexto**: Temperatura elevada (30,4°C) e aumento na umidade (68,5%).
   - **Observação**: Curvas de temperatura e umidade com inclinação ascendente.
   <p align="center">
-  <a href= ""><img src="assets/Captura 2.png" alt="Captura 3" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/Captura 2.png" alt="Captura 3" border="0" width=55% height=55%></a>
   </p>
 
 - **Captura 3**:
   - **Contexto**: Sensor ultrassônico detectando objeto a 197 cm.
   - **Observação**: Linha de distância com transição clara ao atingir o novo valor.
   <p align="center">
-  <a href= ""><img src="assets/Captura 3.png" alt="Captura 3" border="0" width=40% height=40%></a>
+  <a href= ""><img src="assets/Captura 3.png" alt="Captura 3" border="0" width=55% height=55%></a>
   </p>
 
 ### Observações Técnicas
@@ -250,7 +250,9 @@ O Serial Plotter foi utilizado para monitorar as seguintes variáveis:
 
 ## ▶️ YouTube
 
-- <a href="https://youtu.be/gs1GEXbf4UA">Sistema de Irrigação</a>
+<p align="center">
+<a href= "https://youtu.be/AYoa_kjiyN4"><img src="https://img.youtube.com/vi/AYoa_kjiyN4/hqdefault.jpg" alt="Sistema de Irrigação Fase 4" border="0" width=55% height=55%></a>
+</p>
 
 ## 📋 Licença
 
